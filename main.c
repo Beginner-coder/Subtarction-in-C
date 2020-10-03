@@ -2,9 +2,10 @@
 
 int main()
 {
-int a,b,c;
-printf("enter two numbers");
-scanf("%d%d",&a,&b);
+float a,b,c;
+printf("Enter two numbers\n");
+scanf("%f%f",&a,&b);
 c=a-b;
-printf("Result is %d",c);
+printf("\nResult is %f",c);
+  return 0;
 }
